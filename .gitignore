@@ -1,12 +1,81 @@
 __pycache__/
 *.py[cod]
-.pytest_cache/
-.vscode/
+*.so
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
 .env
-allure-results/
-allure-report/
+.venv
+venv/
+ENV/
+env/
+
+# pytest
+.pytest_cache/
+.mypy_cache/
+.cache
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Бинарные файлы
 chromedriver*
 geckodriver*
-msedgedriver*
 *.exe
+*.dll
+*.so
+*.dylib
+
+# Allure
+allure-results/
+allure-report/
+test-results/
+
+# Screenshots and logs
+screenshots/
 *.log
+*.png
+debug_*.png
+
+# Project specific
+*.db
+*.sqlite3
+*.cache
